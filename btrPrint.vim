@@ -2,7 +2,7 @@
 if exists( "g:BtrPrint#_loaded" )
     finish
 endif
-let g:BtrPrint#_loaded = 1
+let g:BtrPrint_loaded = 1
 
 function! SaveColourScheme()
     redir! => s:PrevColour
@@ -67,8 +67,8 @@ function! <SID>BtrPrint( line1, line2, bang, args)
     let argList = split( a:args )
     let s:colorName = ""
 
-    if exists( "g:BtrPrint#color" )
-        let s:colorName = g:BtrPrint#color
+    if exists( "g:BtrPrint_color" )
+        let s:colorName = g:BtrPrint_color
     endif
 
     let mtch = match( argList, "^color" )
