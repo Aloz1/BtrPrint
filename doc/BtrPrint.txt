@@ -1,0 +1,42 @@
+*BtrPrint.txt*            BtrPrint: A better looking print for vim               *BtrPrint*
+
+
+                            BtrPrint MANUAL
+
+1. About                                                                |btrprint-about|
+2. Installation                                                         |btrprint-install|
+3. Configuration                                                        |btrprint-config|
+4. Usage                                                                |btrprint-usage|
+
+==========================================================================================
+1. ABOUT ~
+                                                                        *btrprint-about*
+
+BtrPrint is short for better print. It is a plugin that enhances vim's built in hardcopy
+command by adding several features I felt were quite essential.
+
+A short list of current and future features of BtrPrint...
+
+    - Can use all of hardcopy's underlying features including all its commands.
+    - Allows you to use an independant colorscheme in your printed document to vim its self
+   *- Enables print to PDF, which allows for...
+   *- Selectable fonts for PDF
+
+* these features are not yet available in BtrPrint
+
+==========================================================================================
+2. INSTALLATION ~
+                                                                        *btrprint-install*
+
+There are 2 methods for installing BtrPrint. The first is by simply downloading BtrPrint.vim
+and placing it in your ~/.vim/plugin directory, and the second is by using a plugin manager
+such as Vundle or Pathogen.
+
+Both methods are fairly self explanitory so I will not bother to detail it in this document.
+Instead, head over to the next section for information on how to configure BtrPrint.
+
+==========================================================================================
+2. CONFIGURATION ~
+                                                                         *btrprint-config*
+
+
